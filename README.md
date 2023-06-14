@@ -28,7 +28,7 @@
 - statsmodel - version 0.13.5
 
 ## Contact
-Created by [Harshit-tech9] - feel free to contact me at [harshitpanchalcie16@gmail.com]
+Created by Harshit-tech9 - feel free to contact me at harshitpanchalcie16@gmail.com
 
 
 
