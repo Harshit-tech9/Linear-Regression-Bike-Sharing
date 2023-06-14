@@ -5,7 +5,7 @@
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
-* [Contact](#acknowledgements)
+* [Contact](#Contact)
 
 ## General Information
 - The Project is aimed to create a Multiple Linear regression model to predict the bike rentals of BoomBikes. 
