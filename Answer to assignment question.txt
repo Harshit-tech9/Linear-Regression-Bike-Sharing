@@ -1,4 +1,4 @@
-## Assignment-based Subjective Questions
+## Assignment-based Subjective Questions 
 
 Q1. From your analysis of the categorical variables from the dataset, what could you infer about their effect on the dependent variable?   
 A1. From the analysis of categorical variable we can infer that weather situation, season and month has highest impact on the bike rentals when whether situation is like sunny, partly cloudly in that type of situation people prefers to have more bike rentals. In the season of summer and fall people prefer to have ike rentals and we cam also observe that median of value in summer months of bike rentals were also higher.
