@@ -1,0 +1,38 @@
+## Assignment-based Subjective Questions
+
+Q1. From your analysis of the categorical variables from the dataset, what could you infer about their effect on the dependent variable?   
+A1. From the analysis of categorical variable we can infer that weather situation, season and month has highest impact on the bike rentals when whether situation is like sunny, partly cloudly in that type of situation people prefers to have more bike rentals. In the season of summer and fall people prefer to have ike rentals and we cam also observe that median of value in summer months of bike rentals were also higher.
+
+Q2. Why is it important to use drop_first=True during dummy variable creation?  
+A2. When there are n columns and m level we need to have n * (m -1) dummy columns for feature selection. 
+
+Q3. Looking at the pair-plot among the numerical variables, which one has the highest correlation with the target variable? 
+A3. From pairplot there are two variable which has highest correlation with target variables are registered and casual as target variable is the sum of this two variable. Other variables which has highest correlation with the target variables are temperature. 
+
+Q4. How did you validate the assumptions of Linear Regression after building the model on the training set?  
+A4. The assumptions are validated by observing the p-value, F-statistics and VIF value on the target variable.  
+
+Q5. Based on the final model, which are the top 3 features contributing significantly towards explaining the demand of the shared bikes?  
+A5. Using Manual Feature selection method following variables are contributing significantly toward the demand Month, Weathersit, and casual. Using Recursive Feature Selection method following are the top three variables Temperature, Registered and Casual. 
+
+## General Subjective Questions  
+
+Q1. Explain the linear regression algorithm in detail. 
+A1. Linear regression is a predictive method which is used for the prediction of continuous variable. 
+    There are few assumption fo linear regression There should not exist multicolliearity between independent variables, error componenet should be normally distributed, There should be a linear relationship between X and Y. Error terms has constant Variance. 
+    Linear regression model is evaluated by R2 - Score, where R2 represent the best fit line. The range of R2 is between 0 an 1. R2 score explains the variance. If it is 0.84 we can say that model explains the 84% of variance. 
+  
+Q2. Explain the Anscombe’s quartet in detail. 
+A2.  Anscombe’s quartet helps us to understand the importance of data visualization and how easy it is to fool a regression algorithm. So, before attempting to interpret and model the data or implement any machine learning algorithm, we first need to visualize the data set in order to help build a well-fit model. 
+
+Q3. What is Pearson’s R?  
+A3. The Pearson's R reprsents the strength of correlation between two values. It values lies between -1 to +1. where 0 represents no correaltion, -1 represents neative linear relationship and +1 represents the positive correlationship. 
+
+Q4. What is scaling? Why is scaling performed? What is the difference between normalized scaling and standardized scaling?  
+A4. Scaling is like normalizing the features between a certain range of values. scaling is performed when we have a large values at that time we can have a weird coefficent and can lead to poor model performance. To counter this we have a two methods normalizing and scaling. Normalizing scales the values in the range of -1 to 1 while standardization scales the value with mean 0 and standarad deviation of 1. Normalization explain the variance while Standardization does not explain the variance. 
+
+Q5. You might have observed that sometimes the value of VIF is infinite. Why does this happen? 
+A5. When the R2 score is one than we can say that all the variance is explained by the model. so from the formula we can have a infinite value of VIF as all the variance is explained in our model. 
+
+Q6. What is a Q-Q plot? Explain the use and importance of a Q-Q plot in linear regression. 
+A6. Q-Q plot is normally used to evaluate the assumption of the of normality of residuals. Q-Q plot allows us to visualise whether the residuals are normally distributed or not. If the plot has pronounced S-shape than we can consider that the residuals are heavily tails or skewed. Outliers can be identified from Q-Q plot as they deviate from the straight line. It also helps in improving the model performance as we can observe the outliers or normality of residuals.
